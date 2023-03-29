@@ -1,0 +1,32 @@
+page = PAGE
+page {
+
+    // Set default page typenum
+    typeNum = 0
+
+    // Set viewport
+    meta {
+        viewport = width=device-width,initial-scale=1, maximum-scale=1, user-scalable=no
+    }
+
+    includeCSS {
+        10 = EXT:ns_speed_booster/Resources/Public/css/main.css
+    }
+    // Initiate all the js-together
+    includeJSFooter {
+        10 = EXT:ns_speed_booster/Resources/Public/JavaScript/main.js
+    }
+    inlineSettings {
+        excludeUrls = {$ns_speed_booster.settings.excludeUrls}
+        enableProgressBar = {$ns_speed_booster.settings.enableProgressBar}
+        idBundleJs = {$ns_speed_booster.settings.idBundleJs}
+        langSwitch = {$ns_speed_booster.settings.langSwitch}
+        mainClassName = {$ns_speed_booster.settings.mainClassName}
+        pageBackForwardReload = {$ns_speed_booster.settings.pageBackForwardReload}
+        removeUsingPageClass = {$ns_speed_booster.settings.removeUsingPageClass}
+        removeUsingTargetClass = {$ns_speed_booster.settings.removeUsingTargetClass}
+        removeWithoutReloadUsingTargetClass = {$ns_speed_booster.settings.removeWithoutReloadUsingTargetClass}
+        errorMsg = {$ns_speed_booster.settings.errorMsg}
+        headerCollapse = {$ns_speed_booster.settings.headerCollapse}
+    }
+}

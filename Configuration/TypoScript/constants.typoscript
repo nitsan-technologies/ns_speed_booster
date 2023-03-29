@@ -1,0 +1,36 @@
+ns_speed_booster {
+    settings{
+        #cat = ns_speed_booster/503/01; type=string; label= LLL:EXT:ns_speed_booster/Resources/Private/Language/locallang.xlf:excludeurls
+        excludeUrls = /blog
+
+        #cat = ns_speed_booster/503/02; type=boolean; label= LLL:EXT:ns_speed_booster/Resources/Private/Language/locallang.xlf:progessbar
+        enableProgressBar = 0
+
+        #cat = ns_speed_booster/503/03; type=string; label= LLL:EXT:ns_speed_booster/Resources/Private/Language/locallang.xlf:bundlejs
+        idBundleJs = pageAjax
+
+        #cat = ns_speed_booster/503/04; type=string; label= LLL:EXT:ns_speed_booster/Resources/Private/Language/locallang.xlf:langswtich
+        langSwitch = .header-language-menu a
+
+        #cat = ns_speed_booster/503/05; type=string; label= LLL:EXT:ns_speed_booster/Resources/Private/Language/locallang.xlf:mainclass
+        mainClassName = .site-main
+
+        #cat = ns_speed_booster/503/06; type=boolean; label= LLL:EXT:ns_speed_booster/Resources/Private/Language/locallang.xlf:pageback
+        pageBackForwardReload = 1
+
+        #cat = ns_speed_booster/503/07; type=string; label= LLL:EXT:ns_speed_booster/Resources/Private/Language/locallang.xlf:removeusingpage
+        removeUsingPageClass = .offer-page-header
+
+        #cat = ns_speed_booster/503/08; type=string; label= removeUsingTargetClass: To Apply multiple classes then please use ','(comma) for seperate class
+        removeUsingTargetClass = lang-menu-item
+
+        #cat = ns_speed_booster/503/09; type=string; label= removetargetwithoutload: To Apply multiple classes then please use ','(comma) for seperate class
+        removeWithoutReloadUsingTargetClass = exclude-ajax-link
+
+        #cat = ns_speed_booster/503/10; type=string; label= LLL:EXT:ns_speed_booster/Resources/Private/Language/locallang.xlf:errorMsg
+        errorMsg = Something is went wrong for NsWebsiteWithoutReload plugin
+
+        #cat = ns_speed_booster/505/11; type=boolean; label= LLL:EXT:ns_speed_booster/Resources/Private/Language/locallang.xlf:headerCollapse
+        headerCollapse = 0
+    }
+}

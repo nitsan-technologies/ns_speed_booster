@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2017-10-17T18:30:52Z" product-name="ns_open_streetmap">
+		<header/>
+		<body>
+			<trans-unit id="excludeurls">
+				<source>Exclude Urls</source>
+			</trans-unit>
+			<trans-unit id="progessbar">
+				<source>Enable Progressbar</source>
+			</trans-unit>
+			<trans-unit id="bundlejs">
+				<source>idBundleJs</source>
+			</trans-unit>
+			<trans-unit id="langswtich">
+				<source>Language Switch</source>
+			</trans-unit>
+			<trans-unit id="mainclass">
+				<source>Main Class Name</source>
+			</trans-unit>
+			<trans-unit id="pageback">
+				<source>Page BackForwarfd Reload</source>
+			</trans-unit>
+			<trans-unit id="removeusingpage">
+				<source>removeUsingPageClass</source>
+			</trans-unit>
+			<trans-unit id="removetargetwithoutload">
+				<source>removeWithoutReloadUsingTargetClass</source>
+			</trans-unit>
+			<trans-unit id="removetarget">
+				<source>removeUsingTargetClass</source>
+			</trans-unit>
+			<trans-unit id="errorMsg">
+				<source>Error Message</source>
+			</trans-unit>
+			<trans-unit id="headerCollapse">
+				<source>Header Collapse</source>
+			</trans-unit>																		
+		</body>
+	</file>
+</xliff>

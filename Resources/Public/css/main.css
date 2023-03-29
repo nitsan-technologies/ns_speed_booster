@@ -1,0 +1,35 @@
+/*You may change your class*/
+.site-main {
+    position: relative;
+    transition: opacity 1s, transform 1s;
+}
+
+.site-main.fade {
+    opacity: 0;
+    transform: translateY(-30px);
+}
+
+/*Get proper Target via Js*/
+a * {
+    pointer-events: none;
+}
+
+/*Added Progress bar customize*/
+#nprogress {
+    background: #000;
+    height: 3px;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+#nprogress .peg {
+    background: #fff;
+    box-shadow: none;
+}
+
+#nprogress .bar {
+    background: #fff;
+    height: 3px;
+}
